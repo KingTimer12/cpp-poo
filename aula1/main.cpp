@@ -25,7 +25,7 @@ int main()
 
     float *ptr_scores = nullptr;
 
-    float result;
+    float result = 0;
 
     cout << "Escreva seu nome: ";
     getline(cin, name);
@@ -35,7 +35,7 @@ int main()
 
     for (int i = 0; i < size; i++)
     {
-        cout << "Qual foi a nota da prova "<< i+1 <<"?\n";
+        cout << "Qual foi a nota da prova " << i + 1 << "?\n";
         cin >> ptr_scores[i];
     }
 
